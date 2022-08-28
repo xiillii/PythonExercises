@@ -1,0 +1,9 @@
+import numpy
+
+if __name__ == "__main__":
+    
+    numbers = tuple(map(int, input().split()))
+       
+    print(numpy.zeros(numbers, dtype=numpy.int64))
+    print(numpy.ones(numbers, dtype=numpy.int64))
+    
